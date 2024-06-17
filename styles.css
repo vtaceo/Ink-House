@@ -28,6 +28,7 @@ p {
 
 /* NAVIGATION */
 
+
 .nav {
     /* padding: 20px;
     background-color: brown; */
@@ -106,6 +107,11 @@ p {
     padding: 5px 40px;
     border-radius: 50px;
     font-size: 16px;
+}
+
+header {
+    position: sticky;
+    top: 0;
 }
 
 nav {
@@ -1003,6 +1009,10 @@ nav ul .nav-btn {
 
 
 @media (max-width: 476px) {
+    nav {
+        height: 75px;
+    }
+
     nav, .about-text, .discount-info {
         padding: 0 20px !important;
     }
@@ -1013,6 +1023,15 @@ nav ul .nav-btn {
     }
 
     .home-text p {
+        width: 100%;
+    }
+
+    .booking {
+        padding: 10px !important;
+    }
+
+
+    .booking form .inputs input{
         width: 100%;
     }
 
@@ -1053,5 +1072,14 @@ nav ul .nav-btn {
     
     .lower-footer .socials .social img {
         width: 24px;
+    }
+}
+
+
+@media (max-width: 396px) {
+    .our-art .gallery img {
+        width: 100%;
+        height: 350px;
+        flex-basis: 100%;
     }
 }
