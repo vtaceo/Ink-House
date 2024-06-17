@@ -1,1107 +1,1052 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Anton&family=Sancreek&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Anton&family=Sancreek&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald:wght@200..700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    transition: all .2s;
+  margin: 0;
+  padding: 0;
+  transition: all 0.2s;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
-
-h1, button, h2, h3 {
-    font-family: "Sancreek", serif;
-    font-weight: 400;
-    font-style: normal;
+/* ================ FONT SIZES =============== */
+h1,
+button,
+h2,
+h3,
+.nav-logo {
+  font-family: "Sancreek", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
 }
-
-button a, a {
-    font-family: "Anton", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-decoration: none;
-}
-
-p {
-    font-family: "Alegreya", serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-}
-
-/* NAVIGATION */
-
-
-.landing-page {
-    /* padding: 20px;
-    background-color: brown; */
-    margin-top: 0px;
-    background-image: url(img/tat-bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-color: rgba(0, 0, 0, 0.641);
-    height: 100vh;
-}
-
-.navbar {
-    /* display: flex;
-    align-items: center; */
-    display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 100px;
-}
-
-
-.hamburger {
-    display: none;
-    cursor: pointer;
-  }
 
 .nav-logo {
-    font-family: "Sancreek", serif;
-    color: white;
+  font-size: 42px;
 }
 
-.bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: #ffffff;
-}
-  
-
-  .nav__link {
-    position: fixed;
-    width: 100vw;
-    top: 100px;
-    left: 0px;
-    background-color: rgb(0, 0, 0);
-    color: white;
-  }
-  
-  .nav__link a {
-    /* display: block; */
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    padding: 25px 0;
-    color: rgb(255, 255, 255);
-
-  }
-  
-  .nav__link a:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-  }
-  
-  .hide {
-    display: none;
-  }
-
-#m-btn {
-    background-color: white;
-    color: black;
-    font-weight: bold;
-    border: none;
-    padding: 5px 40px;
-    border-radius: 50px;
-    font-size: 16px;
-}
-
-header {
-    position: sticky;
-    top: 0;
-    background-color: rgba(255, 255, 255, 0);
-}
-
-nav {
-    height: 100px;
-    padding: 0 100px;
-    background-color: rgb(0, 0, 0);
-    /* background-color: rgba(0, 0, 0, 0.649); */
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    
-}
-
-nav ul {
-    /* display: flex;
-    align-items: center; */
-    gap: 50px;
-    display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav ul li {
-    list-style: none;
-    /* margin-left: 5rem; */
-}
-
-.nav-link {
-    color: white;
-}
-
-nav ul .nav-btn {
-    /* background-color: rgb(172, 172, 172); */
-    /* background-color: white;
-    color: black;
-    font-weight: bold;
-    border: none;
-    padding: 8px 20px;
-    border-radius: 50px; */
-}
-
-/* nav ul button a {
-    font-family: "Sancreek", serif;
-    color: black;
-    font-weight: 500;
-    letter-spacing: 0px;
-} */
-
-.nav-logo {
-    font-size: 42px;
-}
-
-
-/* HOME TEXT */
-
-.home-text {
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
-    gap: 15px;
-    margin: auto;
-    width: 1000px;
-}
 
 .home-text h1 {
     font-size: 80px !important;
-}
-
-.home-text p {
+  }
+  
+  .home-text p {
     font-size: 18px !important;
-}
-
-.home-text button {
+  }
+  
+  .home-text button {
     margin-top: 10px;
     border: none;
     padding: 10px 25px;
     border-radius: 50px;
     font-size: 20px;
+  }
+  
+
+button a,
+a,
+.copyright P {
+  /* font-family: "Fjalla One", sans-serif; */
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
 }
 
-.content {
-    scroll-margin-top: 100px;
-}
-
-/* ABOUT */
-.about {
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-color: orange; */
-    background-color: #262626;
-    color: white;
-}
-
-.about .about-text {
-    width: 50vw;
-    display: flex-column;
-    justify-content: center;
-    align-items: center;
+p {
+  font-family: "Oswald", sans-serif;
+  /* font-family: "Alegreya", serif; */
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0.4px;
 }
 
 .about .about-text h1 {
     font-size: 42px;
-}
+  }
 
-.about .about-text .text {
-    padding: 0px 100px 0px 100px;
-}
-
-.about .about-text .text p  {
-    padding-top: 5px;
-}
-
-.about .about-img {
-    background-image: url(img/about.jpg);
-    /* padding-left: 100px; */
-    height: 50vh;
-    width: 50vw;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-color: rgba(0, 0, 0, 0.641);
-}
-
-/* SERVICES */
-
-.services {
-    /* height: 50vh; */
-    background-color: #171717;
-    color: white;
-    display: flex-column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 100px;
-}
-
-.about-services {
-    width: 400px;
-    margin: auto;
-}
-
-.about-services h1 {
+  .about-services h1 {
     font-size: 42px;
-}
+  }
 
-.services p  {
-    padding-top: 5px;
-}
-
-.services .services-list {
-    padding-top: 80px;
-    margin: auto;
-    /* padding: 0 100px; */
-    width: 70vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50px;
-}
-
-.service {
-    /* padding: 0 20px; */
-}
-
-.service-bio {
-    /* background-color: rgba(255, 166, 0, 0.132); */
-    /* max-width: 280px; */
-    max-width: 280px;
-}
-
-.service-img {
-    text-align: center;
-    margin: auto;
-    width: 80px;
-    height: 80px;
-    border-radius: 100%;
-    background-color: #262626;
-    display: flex;
-
-}
-
-.service-img img {
-    margin: auto;
-    width: 48px;
-    height: 48px;
-
-}
-
-.services .services-list h2 {
-    padding-top: 10px;
-}
-
-
-/* DISCOUNT HERO */
-.discount {
-    background-image: url(img/discount.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-color: rgba(0, 0, 0, 0.819);
-    height: 30vh;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.discount .discount-info {
-    line-height: 50px;
-}
-
-.discount p {
+  .discount p {
     font-size: 20px;
-}
+  }
 
-
-.discount button {
+  .discount button {
     margin-top: 10px;
     border: none;
     padding: 6px 40px;
     border-radius: 50px;
     font-size: 20px;
     color: black;
-}
+  }
 
-.discount button a {
+  .discount button a {
     color: black;
-}
+  }
 
-
-
-/* OUR ARTISTS */
-.our-artists {
-    /* height: 50vh; */
-    background-color: #262626;
-    color: white;
-    display: flex-column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 100px 0;
-}
-
-.our-artists h1 {
+  .our-artists h1 {
     font-size: 42px;
-}
+  }
 
-.about-artists {
-    width: 400px;
-    margin: auto;
-}
-
-.about-artists p  {
-    padding-top: 5px;
+  .about-artists p {
     font-size: 16px;
-}
+  }
 
-.artist-list {
-    /* background-color: teal; */
-    margin: auto;
-    padding: 100px 100px 0 100px;
-    width: 80vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    /* gap: 50px; */
-}
 
-/* .artist {
-    background-color: firebrick;
-    padding: 0 100px;
-} */
-
-.artist-img img {
-    margin: auto;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.artist-img {
-    margin: auto;
-    width: 220px;
-    height: 280px;
-}
-
-.our-artists .bio {
-    padding-top: 12px;
-}
-
-.our-artists .bio h2 {
+  .our-artists .bio h2 {
     font-family: "Alegreya", serif;
     font-weight: 300;
-}
-
-.our-artists .bio p {
+  }
+  
+  .our-artists .bio p {
     font-family: "Anton", sans-serif;
-    padding-top: 5px;
-    letter-spacing: 2px;
     font-size: 16px;
+  }
 
-}
-
-
-/* GALLERY */
-.our-art {
-    background-color: #171717;
-    color: white;
-    text-align: center;
-    padding: 100px ;
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
-.our-arts h1 {
+  .our-arts h1 {
     font-size: 42px;
-}
+  }
 
-.our-art .gallery {
-    /* background-color: teal; */
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding-top: 50px;
-    margin: auto;
-    justify-content: center;
-}
-
-.our-art .gallery img {
-    /* background-color: firebrick; */
-    width: 200px;
-    flex-basis: 20%;
-    object-fit: cover;
-}
-
-
-
-
-
-/* BOOKING */
-
-.booking {
-    background-color: #262626;
-    color: white;
-    text-align: center;
-    padding: 100px;
-}
-
-.booking-form {
-    /* margin: auto; */
-    /* background-color: orange; */
-    margin-top: 50px;
-    font-family: "Anton", sans-serif;
-}
-
-.booking-form form {
-    margin: auto;
-    /* background-color: teal; */
-    width: 50vw;
-    display: flex-column;
-}
-
-.booking-form button {
+  .booking-form button {
     margin-top: 30px;
     border: none;
     padding: 6px 45px;
     border-radius: 50px;
     font-size: 20px;
     color: black;
+  }
+  
+
+  .booking-form form input {
+    font-family: "Anton", sans-serif;
+  }
+
+  .booking-form form textarea {
+    font-family: "Anton", sans-serif;
+  }
+
+  .booking-form button a {
+    color: black;
+  }
+
+/* =========================================== */
+
+/* NAVIGATION */
+
+.landing-page {
+  margin-top: 0px;
+  background-image: url(img/tat-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.641);
+  height: 100vh;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #ffffff;
+}
+
+.nav__link {
+  position: fixed;
+  width: 100vw;
+  top: 100px;
+  left: 0px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.nav__link a {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 25px 0;
+  color: rgb(255, 255, 255);
+}
+
+.nav__link a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.hide {
+  display: none;
+}
+
+#m-btn {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 5px 40px;
+  border-radius: 50px;
+  font-size: 16px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+nav {
+  height: 100px;
+  padding: 0 100px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  gap: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.nav-link {
+  color: white;
+}
+
+/* HOME TEXT */
+
+.home-text {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  gap: 15px;
+  margin: auto;
+  width: 1000px;
+}
+
+.content {
+  scroll-margin-top: 100px;
+}
+
+/* ABOUT */
+.about {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #262626;
+  color: white;
+}
+
+.about .about-text {
+  width: 50vw;
+  display: flex-column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.about .about-text .text {
+  padding: 0px 100px 0px 100px;
+}
+
+.about .about-text .text p {
+  padding-top: 5px;
+}
+
+.about .about-img {
+  background-image: url(img/about.jpg);
+  /* padding-left: 100px; */
+  height: 50vh;
+  width: 50vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.641);
+}
+
+/* SERVICES */
+
+.services {
+  background-color: #171717;
+  color: white;
+  display: flex-column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px;
+}
+
+.about-services {
+  width: 400px;
+  margin: auto;
+}
+
+.services p {
+  padding-top: 5px;
+}
+
+.services .services-list {
+  padding-top: 80px;
+  margin: auto;
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+/* .service-bio {
+  max-width: 280px;
+} */
+
+.service-img {
+  text-align: center;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: #262626;
+  display: flex;
+}
+
+.service-img img {
+  margin: auto;
+  width: 48px;
+  height: 48px;
+}
+
+.services .services-list h2 {
+  padding-top: 10px;
+}
+
+/* DISCOUNT HERO */
+.discount {
+  background-image: url(img/discount.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.819);
+  height: 30vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.discount .discount-info {
+  line-height: 50px;
+}
+
+.discount p {
+  font-size: 20px;
+}
+
+/* OUR ARTISTS */
+.our-artists {
+  background-color: #262626;
+  color: white;
+  display: flex-column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.our-artists h1 {
+  font-size: 42px;
+}
+
+.about-artists {
+  width: 400px;
+  margin: auto;
+}
+
+.about-artists p {
+  padding-top: 5px;
+}
+
+.artist-list {
+  margin: auto;
+  padding: 100px 100px 0 100px;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.artist-img img {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.artist-img {
+  margin: auto;
+  width: 220px;
+  height: 280px;
+}
+
+.our-artists .bio {
+  padding-top: 12px;
+}
+
+.our-artists .bio h2 {
+  font-family: "Alegreya", serif;
+  font-weight: 300;
+}
+
+.our-artists .bio p {
+  padding-top: 5px;
+  letter-spacing: 2px;
+}
+
+/* GALLERY */
+.our-art {
+  background-color: #171717;
+  color: white;
+  text-align: center;
+  padding: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.our-art .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 50px;
+  margin: auto;
+  justify-content: center;
+}
+
+.our-art .gallery img {
+  /* background-color: firebrick; */
+  width: 200px;
+  flex-basis: 20%;
+  object-fit: cover;
+}
+
+/* BOOKING */
+
+.booking {
+  background-color: #262626;
+  color: white;
+  text-align: center;
+  padding: 100px;
+}
+
+.booking-form {
+  margin-top: 50px;
+  font-family: "Anton", sans-serif;
+}
+
+.booking-form form {
+  margin: auto;
+  width: 50vw;
+  display: flex-column;
+}
+
+
 .booking-form form input {
-    background-color: #262626;
-    color: white;
-    width: 375px;
-    height: 30px;
-    margin: 5px;
-    border-width: 1px;
-    border-color: white;
-    padding: 0 10px;
-    font-family: "Anton", sans-serif;
-    letter-spacing: .5px;
+  background-color: #262626;
+  color: white;
+  width: 375px;
+  height: 30px;
+  margin: 5px;
+  border-width: 1px;
+  border-color: white;
+  padding: 0 10px;
+  letter-spacing: 0.5px;
 }
 
 .booking-form form input:focus {
-    outline: none;
+  outline: none;
 }
 
 .booking-form form textarea:focus {
-    outline: none;
+  outline: none;
 }
 
 .booking-form form textarea {
-    letter-spacing: .5px;
-    color: white;
-    background-color: #262626;
-    margin: 5px;
-    width: 783px;
-    max-width: 812px;
-    height: 150px;
-    overflow: hidden;
-    border-width: 1px;
-    border-color: white;
-    padding: 5px 10px;
-    font-family: "Anton", sans-serif;
+  letter-spacing: 0.5px;
+  color: white;
+  background-color: #262626;
+  margin: 5px;
+  width: 783px;
+  max-width: 812px;
+  height: 150px;
+  overflow: hidden;
+  border-width: 1px;
+  border-color: white;
+  padding: 5px 10px;
 }
 
-.booking-form button a {
-    color: black;
-}
 
 .booking .inputs {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-
 
 /* FOOTER */
 
 .footer {
-    background-color: #171717;
-    color: rgb(138, 138, 138);
-    padding: 0px 200px;
-    
+  background-color: #171717;
+  color: rgb(138, 138, 138);
+  padding: 0px 200px;
 }
 
 .top-footer {
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px 0;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
 }
 
 .top-footer .footer-img {
-    /* background-color: orange; */
-    padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 .top-footer img {
-    width: 24px;
+  width: 24px;
 }
 
 .lower-footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 50px 0;
-    align-items: center;
-}
-
-.lower-footer .copyright p {
-    font-family: "Anton", sans-serif ;
-    letter-spacing: 1px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  align-items: center;
 }
 
 .lower-footer .sw {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap:10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
 }
 
 .lower-footer .socials {
-    display: flex;
-    flex-direction: row-reverse;
-    text-align: right;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: right;
+  align-items: center;
+  gap: 10px;
 }
 
-
 .lower-footer .socials .social img {
-    width: 24px;
+  width: 24px;
 }
 
 /* MEDIA QUERIES */
 
 @media (max-width: 1280px) {
-    .home-text {
-        height: 80vh;
-        gap: 15px;        
-    }
+  .home-text {
+    height: 80vh;
+    gap: 15px;
+  }
 
-    .nav-logo {
-        font-size: 32px !important;
-    }    
+  .nav-logo {
+    font-size: 32px !important;
+  }
 
-    .home-text h1 {
-        font-size: 60px !important;
-    }
+  .home-text h1 {
+    font-size: 60px !important;
+  }
 
-    .home-text p {
-        font-size: 16px !important;
-        width: 70%;
-    }
+  .home-text p {
+    font-size: 16px !important;
+    width: 70%;
+  }
 
-    h1 {
-        font-size: 32px;
-    }
+  h1 {
+    font-size: 32px;
+  }
 
-    h2 {
-        font-size: 24px;
-    }
+  h2 {
+    font-size: 24px;
+  }
 
-    .services .services-list {
-        padding-top: 80px;
-        width: 100%;
-        gap: 50px;
-    }
+  .services .services-list {
+    padding-top: 80px;
+    width: 100%;
+    gap: 50px;
+  }
 
-    .artist-list {
-        margin: auto;
-        padding: 100px 0 0 0;
-        /* width: 100%; */
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        /* gap: 50px; */
-    }
-    
-    .artist-img {
-        margin: auto;
-        width: 180px;
-        height: 240px;
-    }
+  .artist-list {
+    margin: auto;
+    padding: 100px 0 0 0;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* gap: 50px; */
+  }
 
-    .booking-form form {
-        margin: auto;
-        /* background-color: teal; */
-        width: 60vw;
-        display: flex-column;
-    }
+  .artist-img {
+    margin: auto;
+    width: 180px;
+    height: 240px;
+  }
 
-    .footer {
-        background-color: #171717;
-        color: rgb(138, 138, 138);
-        padding: 0px 100px;
-        
-    }
+  .booking-form form {
+    margin: auto;
+    /* background-color: teal; */
+    width: 60vw;
+    display: flex-column;
+  }
+
+  .footer {
+    background-color: #171717;
+    color: rgb(138, 138, 138);
+    padding: 0px 100px;
+  }
 }
-  
 
 @media (max-width: 1090px) {
-    .nav-logo  {
-        font-size: 28px !important;
-    }
-    
-    nav ul li a {
-        color: white;
-        text-decoration: none;
-        font-size: 14px;
-    }
+  .nav-logo {
+    font-size: 28px !important;
+  }
 
-    nav ul .nav-btn {
-        padding: 6px 20px !important;
-    }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
 
-    .home-text button {
-        margin-top: 10px;
-        border: none;
-        padding: 6px 25px;
-        border-radius: 50px;
-        font-size: 16px;
-    }
+  nav ul .nav-btn {
+    padding: 6px 20px !important;
+  }
 
-    .home-text h1 {
-        font-size: 54px !important;
-    }
+  .home-text button {
+    margin-top: 10px;
+    border: none;
+    padding: 6px 25px;
+    border-radius: 50px;
+    font-size: 16px;
+  }
 
-    .home-text p {
-        font-size: 16px !important;
-        width: 60%;
-    }
+  .home-text h1 {
+    font-size: 54px !important;
+  }
 
-    h1 {
-        font-size: 28px !important;
-    }
+  .home-text p {
+    font-size: 16px !important;
+    width: 60%;
+  }
 
-    h2 {
-        font-size: 20px !important;
-    }
+  h1 {
+    font-size: 28px !important;
+  }
 
-    .artist-list {
-        justify-content: space-between;
-        padding: 100px 0 0 0;
-        width: 80%;
-    }
-    
-    .our-art .gallery img {
-        /* background-color: firebrick; */
-        width: 100%;
-        flex-basis: 33%;
-    }
+  h2 {
+    font-size: 20px !important;
+  }
 
-    .booking-form form {
-        margin: auto;
-        /* background-color: teal; */
-        width: 60vw;
-        display: flex-column;
-    }
+  .artist-list {
+    justify-content: space-between;
+    padding: 100px 0 0 0;
+    width: 80%;
+  }
 
+  .our-art .gallery img {
+    /* background-color: firebrick; */
+    width: 100%;
+    flex-basis: 33%;
+  }
 
-    .footer {
-        background-color: #171717;
-        color: rgb(138, 138, 138);
-        padding: 0px 100px;
-        
-    }
+  .booking-form form {
+    margin: auto;
+    /* background-color: teal; */
+    width: 60vw;
+    display: flex-column;
+  }
 
-    .lower-footer .copyright p {
-        font-family: "Anton", sans-serif ;
-        letter-spacing: 1px;
-        font-size: 12px;
-    }
+  .footer {
+    background-color: #171717;
+    color: rgb(138, 138, 138);
+    padding: 0px 100px;
+  }
+
+  .lower-footer .copyright p {
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    font-size: 12px;
+  }
 }
-  
-
 
 @media (max-width: 998px) {
+  .home-text {
+    width: 80vw;
+  }
 
-    .home-text {
-        width: 80vw;
-    }
+  nav {
+    height: 100px;
+    padding: 0 50px;
+  }
 
-    nav {
-        height: 100px;
-        padding: 0 50px;
-    }
+  .nav-logo {
+    font-size: 20px !important;
+  }
 
-    .nav-logo {
-        font-size: 20px !important;
-    }
-    
-    nav ul .nav-btn {
-        padding: 6px 15px !important;
-    }
+  nav ul .nav-btn {
+    padding: 6px 15px !important;
+  }
 
-    nav ul {
-        gap: 30px;
-    }
+  nav ul {
+    gap: 30px;
+  }
 
-    .home-text button {
-        padding: 6px 25px;
-        font-size: 16px;
-    }
+  .home-text button {
+    padding: 6px 25px;
+    font-size: 16px;
+  }
 
-    .home-text h1 {
-        font-size: 46px !important;
-    }
+  .home-text h1 {
+    font-size: 46px !important;
+  }
 
-    .home-text p {
-        font-size: 14px !important;
-        width: 60%;
-    }
+  .home-text p {
+    font-size: 14px !important;
+    width: 60%;
+  }
 
-    .about .about-text .text {
-        padding: 0px 50px 0px 50px;
-    }
+  .about .about-text .text {
+    padding: 0px 50px 0px 50px;
+  }
 
-    .services {
-        padding: 50px;
-    }
+  .services {
+    padding: 50px;
+  }
 
+  .our-artists {
+    padding: 50px 0;
+  }
 
-    .our-artists {
-        padding: 50px 0;
-    }
+  .artist-list {
+    justify-content: space-between;
+    padding: 100px 0 0 0;
+    width: 90%;
+  }
 
-    .artist-list {
-        justify-content: space-between;
-        padding: 100px 0 0 0;
-        width: 90%;
-    }
+  .our-art {
+    padding: 50px;
+  }
 
-    .our-art {
-        padding: 50px ;  
-    }
-    
-    .our-art .gallery img {
-        /* background-color: firebrick; */
-        width: 100%;
-        flex-basis: 20%;
-    }
+  .our-art .gallery img {
+    /* background-color: firebrick; */
+    width: 100%;
+    flex-basis: 20%;
+  }
 
-    .booking {
-        padding: 50px;
-    }
+  .booking {
+    padding: 50px;
+  }
 
-    .booking-form form {
-        width: 70vw;
-    }
+  .booking-form form {
+    width: 70vw;
+  }
 
-    .footer {
-        padding: 0px 50px;
-    }
-
+  .footer {
+    padding: 0px 50px;
+  }
 }
 
-@media screen and (min-width: 872px) {  
-    .hamburger {
-      display: none;
-    }
+@media screen and (min-width: 872px) {
+  .hamburger {
+    display: none;
   }
-  
+}
 
 @media (max-width: 872px) {
+  .nav-menu {
+    display: block;
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #000000;
+    width: 100%;
+    /* border-radius: 10px; */
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
 
-    .nav-menu {
-        display: block;
-        position: fixed;
-        left: -100%;
-        top: 5rem;
-        flex-direction: column;
-        background-color: #000000;
-        width: 100%;
-        /* border-radius: 10px; */
-        text-align: center;
-        transition: 0.3s;
-        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-      }
-    
-      .nav-menu.active {
-        left: 0%;
-      }
-    
-      .nav-item {
-        margin: 2.5rem 0;
-      }
-    
-      .hamburger {
-        display: block;
-        cursor: pointer;
-      }
-    
-      .hamburger.active .bar:nth-child(2) {
-        opacity: 0;
-      }
-    
-      .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-      }
-    
-      .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-      }
+  .nav-menu.active {
+    left: 0%;
+  }
 
-    .services {
-        /* height: 50vh; */
-        background-color: #171717;
-        color: white;
-        display: flex-column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        /* padding: 50px; */
-    }
-    
-    .about-services {
-        width: 400px;
-        margin: auto;
-    }
-    
-    
-    .services .services-list {
-        /* background-color: teal; */
-        margin: auto;
-        /* padding: 0 100px; */
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        flex-basis: 100%;
-        gap: 50px;
-    }
-    
-    .service {
-       /* background-color: orange; */
-       width: 40%;
-    }
-    
-    .service-bio {
-        /* background-color: rgba(255, 166, 0, 0.132); */
-        /* max-width: 280px; */
-        max-width: 280px;
-    }
+  .nav-item {
+    margin: 2.5rem 0;
+  }
 
-    .our-artists {
-        padding: 50px 0;
-        
-    }
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
 
-    .artist-list {
-        align-items: center;
-        justify-content: center;
-        padding: 50px 50px 0 50px;
-        flex-wrap: wrap;
-        width: 60%;
-        gap: 50px;
-    }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
 
-    .our-art .gallery img {
-        /* background-color: firebrick; */
-        width: 100%;
-        flex-basis: 40%;
-    }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
 
-    .booking-form form {
-        width: 100%;
-    }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .services {
+    /* height: 50vh; */
+    background-color: #171717;
+    color: white;
+    display: flex-column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding: 50px; */
+  }
+
+  .about-services {
+    width: 400px;
+    margin: auto;
+  }
+
+  .services .services-list {
+    /* background-color: teal; */
+    margin: auto;
+    /* padding: 0 100px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    gap: 50px;
+  }
+
+  .service {
+    /* background-color: orange; */
+    width: 40%;
+  }
+
+  .service-bio {
+    /* background-color: rgba(255, 166, 0, 0.132); */
+    /* max-width: 280px; */
+    max-width: 280px;
+  }
+
+  .our-artists {
+    padding: 50px 0;
+  }
+
+  .artist-list {
+    align-items: center;
+    justify-content: center;
+    padding: 50px 50px 0 50px;
+    flex-wrap: wrap;
+    width: 60%;
+    gap: 50px;
+  }
+
+  .our-art .gallery img {
+    /* background-color: firebrick; */
+    width: 100%;
+    flex-basis: 40%;
+  }
+
+  .booking-form form {
+    width: 100%;
+  }
 }
-
 
 @media (max-width: 592px) {
-    .about {
-        height: auto;
-        padding: 50px 0;
-    }
+  .about {
+    height: auto;
+    padding: 50px 0;
+  }
 
-    .about .about-text {
-        width: 100vw;
-        padding: 0px 50px 0px 50px;
-        text-align: center;
-    }   
+  .about .about-text {
+    width: 100vw;
+    padding: 0px 50px 0px 50px;
+    text-align: center;
+  }
 
-    .about-img {
-        display: none;
-    }
+  .about-img {
+    display: none;
+  }
 
-    
-    .about-services {
-        width: 100%;
-        margin: auto;
-    }
+  .about-services {
+    width: 100%;
+    margin: auto;
+  }
 
-    .about-artists {
-        width: 90vw;
-        background-color: orange;
-    }
-    
-    .service {
-       width: 100%;
-    }
+  .about-artists {
+    width: 90vw;
+    background-color: orange;
+  }
 
-    .service-bio {
-        text-align: center;
-        margin: auto;
-    }
+  .service {
+    width: 100%;
+  }
 
-    .about-services h1 {
-        font-size: 42px;
-    }
-    
-    .discount .discount-info {
-        /* background-color: orange; */
-        padding: 0 50px;
-        line-height: 25px;
-    }
-    
-    .discount p {
-        padding-top: 10px;
-        font-size: 16px;
-    }
-    
-    
-    .discount button {
-        margin-top: 10px;
-        border: none;
-        padding: 3px 40px;
-        border-radius: 50px;
-        font-size: 18px;
-        color: black;
-    }
+  .service-bio {
+    text-align: center;
+    margin: auto;
+  }
 
-    .footer .top-footer {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
+  .about-services h1 {
+    font-size: 42px;
+  }
 
-    .footer .top-footer .tp{
-        width: 100% !important;
-    }
+  .discount .discount-info {
+    /* background-color: orange; */
+    padding: 0 50px;
+    line-height: 25px;
+  }
+
+  .discount p {
+    padding-top: 10px;
+    font-size: 16px;
+  }
+
+  .discount button {
+    margin-top: 10px;
+    border: none;
+    padding: 3px 40px;
+    border-radius: 50px;
+    font-size: 18px;
+    color: black;
+  }
+
+  .footer .top-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer .top-footer .tp {
+    width: 100% !important;
+  }
 }
-
 
 @media (max-width: 476px) {
-    nav {
-        height: 75px;
-    }
+  nav {
+    height: 75px;
+  }
 
-    .nav-menu {
-        display: block;
-        position: fixed;
-        left: -100%;
-        top: 4.5rem;
-    }
+  .nav-menu {
+    display: block;
+    position: fixed;
+    left: -100%;
+    top: 4.5rem;
+  }
 
-    .content {
-        scroll-margin-top: 75px;
-    }
+  .content {
+    scroll-margin-top: 75px;
+  }
 
-    nav, .about-text, .discount-info {
-        padding: 0 20px !important;
-    }
+  nav,
+  .about-text,
+  .discount-info {
+    padding: 0 20px !important;
+  }
 
-    .home-text {
-        width: 90vw;
-        padding: 0 20px !important;
-    }
+  .home-text {
+    width: 90vw;
+    padding: 0 20px !important;
+  }
 
-    .home-text p {
-        width: 100%;
-    }
+  .home-text p {
+    width: 100%;
+  }
 
-    .booking {
-        padding: 50px 15px !important;
+  .booking {
+    padding: 50px 15px !important;
+  }
 
-    }
+  .booking form .inputs input {
+    width: 100%;
+  }
 
+  .footer .lower-footer {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+    text-align: center;
+    width: 100% !important;
+  }
 
-    .booking form .inputs input{
-        width: 100%;
-    }
+  .lower-footer .footer-logo {
+    width: 100% !important;
+  }
 
+  .lower-footer .copyright {
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    width: 100% !important;
+  }
 
-    .footer .lower-footer {
-        display: flex;
-        flex-direction: column-reverse;
-        gap: 30px;
-        text-align: center;
-        width: 100% !important;
-    }
+  .lower-footer .socials {
+    width: 100% !important;
+  }
 
-    .lower-footer .footer-logo {
-        width: 100% !important;
-    }
-    
-    .lower-footer .copyright {
-        font-family: "Anton", sans-serif ;
-        letter-spacing: 1px;
-        width: 100% !important;
-    }
+  .lower-footer .sw {
+    width: 50%;
+    margin: auto;
+  }
 
-    .lower-footer .socials {
-        width: 100% !important;
-    }
-    
-    .lower-footer .sw {
-        width: 50%;
-        margin: auto;
-    }
+  .lower-footer .social {
+    width: 100%;
+    text-align: center !important;
+  }
 
-    .lower-footer .social {
-        width: 100%;
-        text-align: center !important;
-        
-    }
-    
-    
-    .lower-footer .socials .social img {
-        width: 24px;
-    }
+  .lower-footer .socials .social img {
+    width: 24px;
+  }
 }
 
-
 @media (max-width: 396px) {
-    .our-art .gallery img {
-        width: 100%;
-        height: 350px;
-        flex-basis: 100%;
-    }
+  .our-art .gallery img {
+    width: 100%;
+    height: 350px;
+    flex-basis: 100%;
+  }
 }
