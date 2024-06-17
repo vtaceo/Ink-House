@@ -6,6 +6,10 @@
     transition: all .2s;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 h1, button, h2, h3 {
     font-family: "Sancreek", serif;
     font-weight: 400;
@@ -29,9 +33,10 @@ p {
 /* NAVIGATION */
 
 
-.nav {
+.landing-page {
     /* padding: 20px;
     background-color: brown; */
+    margin-top: 0px;
     background-image: url(img/tat-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -49,6 +54,7 @@ p {
   align-items: center;
   padding: 0 100px;
 }
+
 
 .hamburger {
     display: none;
@@ -99,7 +105,7 @@ p {
     display: none;
   }
 
-.m-btn {
+#m-btn {
     background-color: white;
     color: black;
     font-weight: bold;
@@ -112,12 +118,13 @@ p {
 header {
     position: sticky;
     top: 0;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 nav {
     height: 100px;
     padding: 0 100px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     /* background-color: rgba(0, 0, 0, 0.649); */
     color: white;
     display: flex;
@@ -199,10 +206,13 @@ nav ul .nav-btn {
     font-size: 20px;
 }
 
+.content {
+    scroll-margin-top: 100px;
+}
+
 /* ABOUT */
 .about {
     height: 50vh;
-    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1013,6 +1023,17 @@ nav ul .nav-btn {
         height: 75px;
     }
 
+    .nav-menu {
+        display: block;
+        position: fixed;
+        left: -100%;
+        top: 4.5rem;
+    }
+
+    .content {
+        scroll-margin-top: 75px;
+    }
+
     nav, .about-text, .discount-info {
         padding: 0 20px !important;
     }
@@ -1027,7 +1048,8 @@ nav ul .nav-btn {
     }
 
     .booking {
-        padding: 10px !important;
+        padding: 50px 15px !important;
+
     }
 
 
