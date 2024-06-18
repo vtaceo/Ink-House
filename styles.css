@@ -11,127 +11,129 @@ html {
   scroll-behavior: smooth;
 }
 /* ================ FONT SIZES =============== */
-h1,
-button,
-h2,
-h3,
+
+/* NAVIGATION FONTS */
+
 .nav-logo {
   font-family: "Sancreek", serif;
-  font-weight: 400;
-  font-style: normal;
   color: white;
+  font-size: 40px !important;
 }
 
-.nav-logo {
-  font-size: 42px;
+h1,
+h2,
+h3,
+button{
+  font-family: "Sancreek", serif;
 }
 
+p {
+  font-size: 18px !important;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+}
 
 .home-text h1 {
-    font-size: 80px !important;
-  }
-  
-  .home-text p {
-    font-size: 18px !important;
-  }
-  
-  .home-text button {
-    margin-top: 10px;
-    border: none;
-    padding: 10px 25px;
-    border-radius: 50px;
-    font-size: 20px;
-  }
-  
+  font-size: 72px !important;
+}
+
+.home-text button {
+  margin-top: 10px;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 50px;
+  font-size: 20px;
+}
 
 button a,
 a,
 .copyright P {
-  /* font-family: "Fjalla One", sans-serif; */
   font-family: "Oswald", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   text-decoration: none;
 }
 
-p {
-  font-family: "Oswald", sans-serif;
-  /* font-family: "Alegreya", serif; */
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  letter-spacing: 0.4px;
+h1 {
+  font-size: 42px;
 }
 
-.about .about-text h1 {
-    font-size: 42px;
-  }
+/* .about .about-text h1 {
+  font-size: 42px;
+}
 
-  .about-services h1 {
-    font-size: 42px;
-  }
+.about-services h1 {
+  font-size: 42px;
+} */
 
-  .discount p {
-    font-size: 20px;
-  }
+/* .discount p {
+  font-size: 20px;
+} */
 
-  .discount button {
-    margin-top: 10px;
-    border: none;
-    padding: 6px 40px;
-    border-radius: 50px;
-    font-size: 20px;
-    color: black;
-  }
+.discount button {
+  margin-top: 10px;
+  border: none;
+  padding: 6px 40px;
+  border-radius: 50px;
+  font-size: 20px;
+  color: black;
+}
 
-  .discount button a {
-    color: black;
-  }
+.discount button a {
+  color: black;
+}
 
-  .our-artists h1 {
-    font-size: 42px;
-  }
+.our-artists h1 {
+  font-size: 42px;
+}
 
-  .about-artists p {
-    font-size: 16px;
-  }
+.about-artists p {
+  font-size: 16px;
+}
+
+.our-artists .bio h2 {
+  font-family: "Alegreya", serif;
+  font-weight: 300;
+}
+
+.our-artists .bio p {
+  font-family: "Anton", sans-serif;
+  font-size: 16px;
+}
+
+.our-arts h1 {
+  font-size: 42px;
+}
+
+.booking-form button {
+  margin-top: 30px;
+  border: none;
+  padding: 6px 45px;
+  border-radius: 50px;
+  font-size: 20px;
+  color: black;
+}
+
+.booking-form form input {
+  font-family: "Anton", sans-serif;
+}
+
+.booking-form form textarea {
+  font-family: "Anton", sans-serif;
+}
+
+.booking-form button a {
+  color: black;
+}
 
 
-  .our-artists .bio h2 {
-    font-family: "Alegreya", serif;
-    font-weight: 300;
-  }
-  
-  .our-artists .bio p {
-    font-family: "Anton", sans-serif;
-    font-size: 16px;
-  }
 
-  .our-arts h1 {
-    font-size: 42px;
-  }
+.content-header {
+  /* background-color: teal; */
+  width: 600px;
+  margin: auto;
+}
 
-  .booking-form button {
-    margin-top: 30px;
-    border: none;
-    padding: 6px 45px;
-    border-radius: 50px;
-    font-size: 20px;
-    color: black;
-  }
-  
-
-  .booking-form form input {
-    font-family: "Anton", sans-serif;
-  }
-
-  .booking-form form textarea {
-    font-family: "Anton", sans-serif;
-  }
-
-  .booking-form button a {
-    color: black;
-  }
 
 /* =========================================== */
 
@@ -275,7 +277,6 @@ nav ul li {
   align-items: center;
 }
 
-
 .about .about-text .text {
   padding: 0px 100px 0px 100px;
 }
@@ -306,11 +307,6 @@ nav ul li {
   align-items: center;
   text-align: center;
   padding: 100px;
-}
-
-.about-services {
-  width: 400px;
-  margin: auto;
 }
 
 .services p {
@@ -390,14 +386,14 @@ nav ul li {
   font-size: 42px;
 }
 
-.about-artists {
+/* .about-artists {
   width: 400px;
   margin: auto;
 }
 
 .about-artists p {
   padding-top: 5px;
-}
+} */
 
 .artist-list {
   margin: auto;
@@ -440,7 +436,7 @@ nav ul li {
   background-color: #171717;
   color: white;
   text-align: center;
-  padding: 100px;
+  padding: 50px 0;
   display: flex;
   flex-wrap: wrap;
 }
@@ -468,7 +464,7 @@ nav ul li {
   background-color: #262626;
   color: white;
   text-align: center;
-  padding: 100px;
+  padding:100px 0;
 }
 
 .booking-form {
@@ -481,7 +477,6 @@ nav ul li {
   width: 50vw;
   display: flex-column;
 }
-
 
 .booking-form form input {
   background-color: #262626;
@@ -516,7 +511,6 @@ nav ul li {
   border-color: white;
   padding: 5px 10px;
 }
-
 
 .booking .inputs {
   display: flex;
@@ -718,7 +712,7 @@ nav ul li {
 
   nav {
     height: 100px;
-    padding: 0 50px!important;
+    padding: 0 50px !important;
   }
 
   .nav-logo {
@@ -765,9 +759,6 @@ nav ul li {
     width: 90%;
   }
 
-  .our-art {
-    padding: 50px;
-  }
 
   .our-art .gallery img {
     /* background-color: firebrick; */
@@ -775,9 +766,9 @@ nav ul li {
     flex-basis: 20%;
   }
 
-  .booking {
+  /* .booking {
     padding: 50px;
-  }
+  } */
 
   .booking-form form {
     width: 70vw;
@@ -795,7 +786,6 @@ nav ul li {
 }
 
 @media (max-width: 872px) {
-
   .nav-menu {
     display: block;
     position: fixed;
@@ -846,8 +836,10 @@ nav ul li {
     /* padding: 50px; */
   }
 
-  .about-services {
-    width: 400px;
+  .content-header {
+    /* background-color: teal; */
+    width: auto;
+    padding: 0 50px;
     margin: auto;
   }
 
@@ -899,6 +891,8 @@ nav ul li {
 }
 
 @media (max-width: 592px) {
+
+  
   .about {
     height: auto;
     padding: 50px 0;
@@ -915,13 +909,15 @@ nav ul li {
   }
 
   .about-services {
-    width: 100%;
-    margin: auto;
+    width: auto;
+    padding: 0;
+    /* background-color: orange; */
+    /* margin: auto; */
   }
 
   .about-artists {
-    width: 90vw;
-    background-color: orange;
+    /* width: 90vw; */
+    width: auto;
   }
 
   .service {
@@ -969,6 +965,14 @@ nav ul li {
 }
 
 @media (max-width: 476px) {
+
+  .content-header {
+    /* background-color: rgb(114, 197, 197); */
+    width: auto;
+    padding: 0;
+    /* margin: auto; */
+  }
+
   nav {
     height: 75px;
   }
@@ -984,6 +988,11 @@ nav ul li {
     scroll-margin-top: 75px;
   }
 
+  .content {
+    /* background-color: orange; */
+    padding: 50px 20px;
+  }
+
   nav,
   .about-text,
   .discount-info {
@@ -991,7 +1000,7 @@ nav ul li {
   }
 
   .home-text {
-    width: 90vw;
+    width: auto;
     padding: 0 20px !important;
   }
 
