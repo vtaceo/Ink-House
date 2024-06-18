@@ -786,6 +786,10 @@ nav ul li {
 }
 
 @media (max-width: 872px) {
+  .landing-page { 
+    height: auto;
+  }
+
   .nav-menu {
     display: block;
     position: fixed;
@@ -891,7 +895,9 @@ nav ul li {
 }
 
 @media (max-width: 592px) {
-
+  .about .about-text .text {
+    padding: 0 20px;
+  }
   
   .about {
     height: auto;
@@ -965,6 +971,10 @@ nav ul li {
 }
 
 @media (max-width: 476px) {
+
+  .about .about-text .text {
+    padding: 0px;
+  }
 
   .content-header {
     /* background-color: rgb(114, 197, 197); */
