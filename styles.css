@@ -706,6 +706,12 @@ nav ul li {
 }
 
 @media (max-width: 998px) {
+  #m-btn {
+    padding: 5px 0;
+    width: 175px;
+    font-size: 14px;
+  }
+
   .home-text {
     width: 80vw;
   }
@@ -786,6 +792,7 @@ nav ul li {
 }
 
 @media (max-width: 872px) {
+
   .landing-page { 
     height: auto;
   }
