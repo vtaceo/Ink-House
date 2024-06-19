@@ -268,6 +268,12 @@ nav ul li {
   gap: 50px;
 }
 
+.service-bio {
+  display: flex;
+  flex-direction: column;
+  align-content: start;
+}
+
 .service-img {
   text-align: center;
   margin: auto;
@@ -497,6 +503,14 @@ form {
 
 /* ================= MEDIA QUERIES ================= */
 /* ================================================= */
+
+@media (max-width:1440px) {
+  .services .services-list {
+    gap: 30px;
+  }
+}
+
+
 
 @media (max-width: 1280px) {
   h1 {
