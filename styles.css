@@ -14,13 +14,13 @@ html {
 
 /* NAVIGATION FONTS */
 
-.nav-logo {
+/* .nav-logo {
   font-family: "Sancreek", serif;
   color: white;
   font-size: 40px !important;
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3,
 button{
@@ -37,17 +37,17 @@ p {
 
 .home-text h1 {
   font-size: 72px !important;
-}
+} */
 
-.home-text button {
+/* .home-text button {
   margin-top: 10px;
   border: none;
   padding: 10px 25px;
   border-radius: 50px;
   font-size: 20px;
-}
+} */
 
-button a,
+/* button a,
 a,
 .copyright P {
   font-family: "Oswald", sans-serif;
@@ -56,7 +56,7 @@ a,
 
 h1 {
   font-size: 42px;
-}
+} */
 
 /* .about .about-text h1 {
   font-size: 42px;
@@ -70,7 +70,7 @@ h1 {
   font-size: 20px;
 } */
 
-.discount button {
+/* .discount button {
   margin-top: 10px;
   border: none;
   padding: 6px 40px;
@@ -81,15 +81,15 @@ h1 {
 
 .discount button a {
   color: black;
-}
+} */
 
-.our-artists h1 {
+/* .our-artists h1 {
   font-size: 42px;
 }
 
 .about-artists p {
   font-size: 16px;
-}
+} */
 
 .our-artists .bio h2 {
   font-family: "Alegreya", serif;
@@ -105,7 +105,7 @@ h1 {
   font-size: 42px;
 }
 
-.booking-form button {
+/* .booking-form button {
   margin-top: 30px;
   border: none;
   padding: 6px 45px;
@@ -124,22 +124,22 @@ h1 {
 
 .booking-form button a {
   color: black;
-}
+} */
 
 
 
-.content-header {
-  /* background-color: teal; */
+/* .content-header {
+  background-color: teal;
   width: 600px;
   margin: auto;
-}
+} */
 
 
 /* =========================================== */
 
 /* NAVIGATION */
 
-.landing-page {
+/* .landing-page {
   margin-top: 0px;
   background-image: url(img/tat-bg.jpg);
   background-position: center;
@@ -148,16 +148,16 @@ h1 {
   background-blend-mode: multiply;
   background-color: rgba(0, 0, 0, 0.641);
   height: 100vh;
-}
+} */
 
-.navbar {
+/* .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 100px;
-}
+} */
 
-.hamburger {
+/* .hamburger {
   display: none;
   cursor: pointer;
 }
@@ -170,9 +170,9 @@ h1 {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #ffffff;
-}
+} */
 
-.nav__link {
+/* .nav__link {
   position: fixed;
   width: 100vw;
   top: 100px;
@@ -192,13 +192,13 @@ h1 {
 .nav__link a:hover {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-}
+} */
 
-.hide {
+/* .hide {
   display: none;
-}
+} */
 
-#m-btn {
+/* #m-btn {
   background-color: white;
   color: black;
   font-weight: bold;
@@ -206,9 +206,9 @@ h1 {
   padding: 5px 40px;
   border-radius: 50px;
   font-size: 16px;
-}
+} */
 
-header {
+/* header {
   position: sticky;
   top: 0;
   background-color: rgba(255, 255, 255, 0);
@@ -235,15 +235,15 @@ nav ul {
 
 nav ul li {
   list-style: none;
-}
+} */
 
-.nav-link {
+/* .nav-link {
   color: white;
-}
+} */
 
 /* HOME TEXT */
 
-.home-text {
+/* .home-text {
   color: white;
   text-align: center;
   display: flex;
@@ -254,14 +254,14 @@ nav ul li {
   gap: 15px;
   margin: auto;
   width: 1000px;
-}
+} */
 
-.content {
+/* .content {
   scroll-margin-top: 100px;
-}
+} */
 
 /* ABOUT */
-.about {
+/* .about {
   height: 50vh;
   display: flex;
   justify-content: center;
@@ -287,7 +287,6 @@ nav ul li {
 
 .about .about-img {
   background-image: url(img/about.jpg);
-  /* padding-left: 100px; */
   height: 50vh;
   width: 50vw;
   background-position: center;
@@ -295,11 +294,11 @@ nav ul li {
   background-size: cover;
   background-blend-mode: multiply;
   background-color: rgba(0, 0, 0, 0.641);
-}
+} */
 
 /* SERVICES */
 
-.services {
+/* .services {
   background-color: #171717;
   color: white;
   display: flex-column;
@@ -321,13 +320,13 @@ nav ul li {
   align-items: center;
   justify-content: space-between;
   gap: 50px;
-}
+} */
 
 /* .service-bio {
   max-width: 280px;
 } */
 
-.service-img {
+/* .service-img {
   text-align: center;
   margin: auto;
   width: 80px;
@@ -345,10 +344,10 @@ nav ul li {
 
 .services .services-list h2 {
   padding-top: 10px;
-}
+} */
 
 /* DISCOUNT HERO */
-.discount {
+/* .discount {
   background-image: url(img/discount.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -369,10 +368,10 @@ nav ul li {
 
 .discount p {
   font-size: 20px;
-}
+} */
 
 /* OUR ARTISTS */
-.our-artists {
+/* .our-artists {
   background-color: #262626;
   color: white;
   display: flex-column;
@@ -380,11 +379,11 @@ nav ul li {
   align-items: center;
   text-align: center;
   padding: 100px 0;
-}
+} */
 
-.our-artists h1 {
+/* .our-artists h1 {
   font-size: 42px;
-}
+} */
 
 /* .about-artists {
   width: 400px;
@@ -395,16 +394,16 @@ nav ul li {
   padding-top: 5px;
 } */
 
-.artist-list {
+/* .artist-list {
   margin: auto;
   padding: 100px 100px 0 100px;
   width: 80vw;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-}
+} */
 
-.artist-img img {
+/* .artist-img img {
   margin: auto;
   height: 100%;
   width: 100%;
@@ -415,13 +414,13 @@ nav ul li {
   margin: auto;
   width: 220px;
   height: 280px;
-}
+} */
 
-.our-artists .bio {
+/* .our-artists .bio {
   padding-top: 12px;
-}
+} */
 
-.our-artists .bio h2 {
+/* .our-artists .bio h2 {
   font-family: "Alegreya", serif;
   font-weight: 300;
 }
@@ -429,20 +428,20 @@ nav ul li {
 .our-artists .bio p {
   padding-top: 5px;
   letter-spacing: 2px;
-}
+} */
 
 /* GALLERY */
-.our-art {
+/* .our-art {
   background-color: #171717;
   color: white;
   text-align: center;
-  padding: 50px 0;
+  padding: 100px 0;
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
 
-.our-art .gallery {
+/* .our-art .gallery {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -452,22 +451,22 @@ nav ul li {
 }
 
 .our-art .gallery img {
-  /* background-color: firebrick; */
+  background-color: firebrick;
   width: 200px;
   flex-basis: 20%;
   object-fit: cover;
-}
+} */
 
 /* BOOKING */
 
-.booking {
+/* .booking {
   background-color: #262626;
   color: white;
   text-align: center;
   padding:100px 0;
-}
+} */
 
-.booking-form {
+/* .booking-form {
   margin-top: 50px;
   font-family: "Anton", sans-serif;
 }
@@ -515,33 +514,33 @@ nav ul li {
 .booking .inputs {
   display: flex;
   justify-content: center;
-}
+} */
 
 /* FOOTER */
 
-.footer {
+/* .footer {
   background-color: #171717;
   color: rgb(138, 138, 138);
   padding: 0px 200px;
-}
+} */
 
-.top-footer {
+/* .top-footer {
   display: flex;
   text-align: center;
   justify-content: space-between;
   align-items: center;
   padding: 50px 0;
-}
+} */
 
-.top-footer .footer-img {
+/* .top-footer .footer-img {
   padding-bottom: 5px;
 }
 
 .top-footer img {
   width: 24px;
-}
+} */
 
-.lower-footer {
+/* .lower-footer {
   display: flex;
   justify-content: space-between;
   padding: 50px 0;
@@ -566,7 +565,7 @@ nav ul li {
 
 .lower-footer .socials .social img {
   width: 24px;
-}
+} */
 
 /* MEDIA QUERIES */
 
@@ -712,6 +711,10 @@ nav ul li {
     font-size: 14px;
   }
 
+  .our-art {
+    padding: 50px 0;
+  }
+
   .home-text {
     width: 80vw;
   }
@@ -755,9 +758,9 @@ nav ul li {
     padding: 50px;
   }
 
-  .our-artists {
+  /* .our-artists {
     padding: 50px 0;
-  }
+  } */
 
   .artist-list {
     justify-content: space-between;
@@ -775,6 +778,10 @@ nav ul li {
   /* .booking {
     padding: 50px;
   } */
+
+  .content {
+    padding: 50px;
+  }
 
   .booking-form form {
     width: 70vw;
