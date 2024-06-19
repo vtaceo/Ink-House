@@ -109,7 +109,3 @@ window.onload = function() {
         document.getElementById("form").reset();
     };
 
-
-
-
-
