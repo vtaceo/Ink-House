@@ -1079,6 +1079,12 @@ a button {
     .home-text p {
       width: 90%;
     }
+
+    .service-bio {
+      text-align: center;
+      margin: auto;
+      width: 100%;
+    }
   
     .booking {
       padding: 50px 15px !important;
@@ -1130,6 +1136,17 @@ a button {
   }
   
   @media (max-width: 396px) {
+    .service {
+      width: auto;
+      padding: 0px;
+    }
+
+    .service-bio {
+      text-align: center;
+      margin: auto;
+      width: 9cap;
+    }
+
     .gallery {
       display: flex;
       flex-wrap: wrap;
