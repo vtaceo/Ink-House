@@ -225,29 +225,36 @@
           <p>Ready to experience exceptional tattoo artistry? Schedule a consultation with one of our talented artists at [Tattoo Shop Name]. Whether it's your first tattoo or an addition to your collection, we're here to make your tattoo dreams a reality.</p>
         </div>
         <div class="booking-form">
-          <form action="">
+          <form id="form" method="POST">
             <div class="inputs">
+              <input type="hidden" name="access_key" value="dcabd46e-66dd-45b3-9d6c-73f7397b4786">
               <input
                 type="text"
                 id="fname"
-                name="fname"
-                placeholder="YOUR NAME"
+                name="name"
+                placeholder="YOUR NAME" required 
               /><br />
-              <input type="text" id="lname" name="lname" placeholder="EMAIL" />
+              <input type="email"  name="email" placeholder="EMAIL" required />
+            
             </div>
             <div class="inputs">
               <input
-                type="text"
-                id="fname"
-                name="fname"
+              type="text"
+              name="phone"
+              id="phone"
                 placeholder="PHONE NUMBER"
               /><br />
-              <input type="text" id="lname" name="lname" placeholder="MM/DD/YY" />
+              <input type="date" name="date" placeholder="MM/DD/YY" />
             </div>
             <div class="inputs">
-              <textarea name="" id="" placeholder="YOUR MESSAGE"></textarea>
+              <textarea name="message" placeholder="YOUR MESSAGE" required></textarea>
             </div>
-            <a href="#contact" id="form-btn"><button>BOOK APPOINTMENT</button></a>
+            <div class="inputs">
+              <!-- Honeypot Spam Protection -->
+              <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            </div>
+            <div id="result"></div>
+            <a href="#contact" id="form-btn"><button type="submit">BOOK APPOINTMENT</button></a>
           </form>
         </div>
         
